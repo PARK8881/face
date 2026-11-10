@@ -1,0 +1,5 @@
+# 테스트를 통과한 버전으로 고정 (st.button(width=...)는 1.48+, [theme.light]/[theme.dark]는 1.51+ 필요)
+streamlit==1.61.1
+openai==3.48.0
+python-dotenv==1.2.3
+Pillow==12.3.0
