@@ -1,0 +1,23 @@
+[theme]
+font = "sans-serif"
+baseRadius = "medium"
+
+[theme.light]
+primaryColor = "#8E3B5E"
+backgroundColor = "#FBF7F0"
+secondaryBackgroundColor = "#F3EADB"
+textColor = "#2E2420"
+
+[theme.dark]
+primaryColor = "#D98BB0"
+backgroundColor = "#1B1620"
+secondaryBackgroundColor = "#2A2230"
+textColor = "#F2E9DC"
+
+[server]
+# 앱의 10MB 제한과 맞춤. 더 큰 파일은 서버가 받기 전에 업로더에서 차단된다.
+maxUploadSize = 10
+
+[client]
+# 예상치 못한 오류가 생겨도 traceback·파일 경로를 사용자에게 보여주지 않는다.
+showErrorDetails = "none"
